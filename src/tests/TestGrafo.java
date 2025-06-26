@@ -28,12 +28,9 @@ public class TestGrafo {
         grafo.agregarArista(6, 8, 1);
         grafo.agregarArista(7, 8, 4);
 
-
-
-        // Recorrer el grafo con DFS y BFS desde Ana (persona 0)
-        System.out.println("----- Recorrido DFS desde Ana -----");
+        System.out.println("----- Recorrido DFS -----");
         grafo.dfs(1);
-        System.out.println("----- Recorrido BFS desde Ana -----");
+        System.out.println("----- Recorrido BFS  -----");
         grafo.bfs(2);
         System.out.println("----- Matriz de Adyacencia -----");
         grafo.matrizDeAdyacencia();
