@@ -9,6 +9,4 @@ public interface IGrafo<T> {
     void dfs(T inicio);
     void bfs(T inicio);
     void matrizDeAdyacencia();
-    List<T> dijkstra(T origen, T destino);
-    List<T> aEstrella(T origen, T destino);
 }
