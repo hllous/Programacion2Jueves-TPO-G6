@@ -7,6 +7,8 @@ import java.util.*;
 public class Grafo<T> implements IGrafo<T> {
     private Map<T, INodo<T>> nodos = new HashMap<>();
 
+    /// MISMA IMPLEMENTACION QUE EN EL TP3
+
     /// Constructor
 
     public Grafo() {

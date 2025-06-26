@@ -6,6 +6,8 @@ import java.util.List;
 
 public class Nodo<T> implements INodo<T> {
 
+    /// MISMA IMPLEMENTACION QUE EN EL TP3
+
     private T valor;
     private List<INodo<T>> vecinos = new ArrayList<>();
     private List<Integer> pesos = new ArrayList<>();
